@@ -26,9 +26,6 @@ public class Teacher {
     @Column(nullable = false, length = 11)
     private String dateBirth;
 
-    @Column(nullable = false, length = 11)
-    private String gender;
-
     @Column(nullable = false, length = 9)
     private String rg;
 
